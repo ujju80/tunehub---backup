@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Registration</title>
+</head>
+<body>
+
+	<form  id="form" action="register" method="post" style="background-color:grey;   text-align:center; align-items: center; justify-content:center; width:50%; padding:20px; border-radius:30px">
+	
+		<h1>Registration Form</h1>
+		<br><br>
+		<label>Username :</label>
+		<input type="text" name="Username" placeholder="Enter your name">
+		<br><br>
+		<label>Email :</label>
+		<input type="email" name="Email" placeholder="Enter your email">
+		<br><br>
+		<label>Password :</label>
+		<input type="password" name="Password" placeholder="Enter your password">
+		<br><br>
+		<label>Gender :</label>
+		<input type="radio" name="Gender" value="male">M
+		<input type="radio" name="Gender" value="female">F
+		<input type="radio" name="gender" value="other">O
+		<br><br>
+		<label>Role :</label>
+		<input type="radio" name="Role" value="admin">Admin
+		<input type="radio" name="Role" value="customer">Customer
+		<br><br>
+		<label>Address :</label>
+		<textarea rows="2" cols="15" name="Address"></textarea>
+		<br><br><br>
+		<button>Register</button> 
+		<input type="reset" name="Reset">
+		
+	</form>
+</body>
+</html>

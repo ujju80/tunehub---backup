@@ -1,0 +1,43 @@
+body {
+    background-image: url('https://images.unsplash.com/photo-1547998872-71a44f061d5a?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'); /* Replace 'background-image.jpg' with your image file */
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+	padding-top: 15%;
+    text-align: center;
+    color: white; /* Change the color as needed */
+    font-size: 45px;
+}
+
+#first {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.two {
+    margin: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    background-color: red; /* Change the color as needed */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: black; /* Change the hover color as needed */
+}
+
